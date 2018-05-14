@@ -1,0 +1,1 @@
+Intended to be a memory game with React, it was meant randomly rearrange the order of the dogs on the page and the goal of the game was to click on a different dog consecutively until the user clicked on the same dog twice.  The application would keep track of the user's total score and high-score, while each time shuffling the 'dog-cards' randomly after each pick.
