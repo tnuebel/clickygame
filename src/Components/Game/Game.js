@@ -35,6 +35,7 @@ class Game extends Component {
                 <p>Random Number: {this.state.randomNumber}</p>
                 <p>Score: {this.state.score}</p>
                 <p>Tally: {this.state.tally}</p>
+                <div class="row">
                 {this.state.Trumps.map(trump => (
                     <Card
                         key={trump.id}
@@ -44,6 +45,7 @@ class Game extends Component {
                         cardClickedOn={this.cardClickedOn} />
 
                 ))}
+                </div>
             </div>
         );
     }

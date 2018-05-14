@@ -8,7 +8,7 @@
 } */
 
 
-.card {
+.my-card {
     background: #fff;
     border-radius: 2px;
     height: 325px;
@@ -20,7 +20,7 @@
   }
   
   .card > .img-container {
-    height: 60%;
+    /* height: 60%; */
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
@@ -32,7 +32,7 @@
   .card > .content {
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 15px;
+    /* font-size: 15px; */
   }
   
   .card > .content > ul {
@@ -54,4 +54,10 @@
   
   .card > .remove:hover {
     color: #d50000;
+  }
+
+  .chi-card {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
   }
